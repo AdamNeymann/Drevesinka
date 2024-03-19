@@ -1,0 +1,173 @@
+@import url("Font/ALGER.TTF");
+@font-face {
+    font-family: ALGER;
+    src: url("Font/ALGER.TTF");
+}
+
+body{
+    margin: 0px;
+}
+
+.st1{
+    display: flex;
+    width: 1440px;
+    height: 820px;
+}
+
+.backgraund-img{
+    width: 1440px;
+    height: 820px;
+    /* filter: blur(2px); */
+}
+
+header{
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+}
+
+.logo{
+    position: absolute;
+    width: 105px;
+    height: 85px;
+    left: 68px;
+    right: 1278px;
+    top: 7px;
+    bottom: 8px;
+}
+
+.menu{
+    display: flex;
+    position: absolute;
+    width: 952px;
+    height: 100px;
+    left: 488px;
+    right: 11px;
+    justify-content: space-evenly
+}
+
+.menu-text{
+    color: white;
+    font-family: Ubuntu Light;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 37px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.menu-text:hover{
+    color: rgb(181, 178, 178);
+    /* text-decoration: underline; */
+}
+
+.info{
+    position: absolute;
+    width: 1440px;
+    height: 715px;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+}
+
+.info-text-h1{
+    position: absolute;
+    width: 1006px;
+    height: 103px;
+    left: 61px;
+    right: 373px;
+    top: 100px;
+    bottom: 551px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: ALGER;
+    font-size: 90px;
+    font-weight: 300;
+    line-height: 103px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.info-text-p{
+    position: absolute;
+    width: 696px;
+    height: 34px;
+    left: 63px;
+    right: 688px;
+    top: 270px;
+    bottom: 484.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu Light;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.info-button{
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 56px;
+    right: 1053px;
+    top: 385px;
+    bottom: 336px;
+    border-radius: 18px;
+    background: rgb(211, 163, 104);
+    border: none;
+    color: rgb(0, 0, 0);
+    font-family: Ubuntu Light;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 55px
+}
+
+.info-button:hover{
+    transition-duration: 200ms;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(211, 163, 104);
+    cursor: pointer;
+}
+
+.info-fact{
+    position: absolute;
+    width: 1440px;
+    height: 170px;
+    top: 549px;
+    background: rgb(211, 163, 104);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-fact-card{
+    width: 230px;
+    height: 50px;
+    /* margin-top: 10px; */
+}
+
+.info-fact-card h4{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.info-fact-card p{
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.info-img{
+    width: 20px;
+}
